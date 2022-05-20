@@ -1,0 +1,71 @@
+.Container{
+    /* border: 2px solid green; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.Form{
+    padding-top: 20px;
+
+    /* border: 2px solid red; */
+    background-color: #effffd;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.Input{
+    
+   background-color: #6b8fea;
+   border: none;
+   padding: 5px 20px;
+    width: 70%;
+    border-radius: 25px;
+    margin: 5px auto;
+}
+.Input::placeholder{
+    color: #fff;
+}
+
+.TellyAccountInput{
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.Button{
+    background-color: #6b8fea;
+    border: none;
+
+    padding: 17px 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color:#fff;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.Add{
+    background-color: #00123f;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}

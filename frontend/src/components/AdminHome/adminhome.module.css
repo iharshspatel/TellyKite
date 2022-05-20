@@ -1,0 +1,139 @@
+.AdminContainer{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.VContainer{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    margin-left: 10px;
+}
+
+.Ranks {
+    background-color: #0684eb;
+    /* display: inline-block; */
+    color: #fff;
+    border-radius: 2%;
+    /* width: 70%; */
+    /* box-sizing: border-box; */
+    /* float: centre; */
+    margin: 1%;
+    padding: 1%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.HContainer{
+    display: flex;
+    /* border: 2px solid teal; */
+    height: 100%;
+}
+
+.Renews{
+    /* border: 2px solid green; */
+    width: 80%;
+
+}
+
+.RenewFilter{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.RenewFilter p{
+    /* border: 2px solid orange; */
+    background-color: #6B8FEA;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Inter";
+    font-weight: 500;
+    margin: auto 20px
+}
+
+.RenewFilter button{
+    border: none;
+    padding: 5px 20px;
+    border: none;
+    background-color: #6B8FEA;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    font-family: Inter;
+    font-weight: 900;
+}
+
+.RenewFilter input{
+    border: none;
+    background-color: #0684eb;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px 20px;
+    font-family: "Inter";
+    font-weight: 500;    
+}
+
+
+
+.Topreseller{
+    /* border: 2px solid blue; */
+    width: 20%;
+    background-color: #6B8FEA;
+    border-radius: 22px;
+    margin: 20px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+}
+
+.Topresellername{
+    font-weight: 400;
+}
+
+.TopresellerHeading{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+h5 {
+    display: inline-block;
+    padding: 1%;
+}
+
+@media only screen and (max-width:768px) {
+    .Links {
+        background-color: #effffd;
+        /* min-width: 50px; */
+        box-sizing: border-box;
+        width: 100%;
+        float: left;
+
+
+        /* max-width: 50%; */
+        /* display: block; */
+        /* max-width :20%; */
+        margin-left: 1%;
+
+
+    }
+
+    .Link {
+        padding: 6%;
+        /* position: relative; */
+    }
+}

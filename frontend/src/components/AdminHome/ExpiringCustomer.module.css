@@ -1,0 +1,19 @@
+
+table{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 20px 0px;
+}
+
+th, td{
+    text-align: center;
+    /* background-color: #6B8FEA; */
+    padding: 5px 20px;
+    margin: 20px 5px;
+    border: 2px solid #6B8FEA;
+    font-family: "Inter";
+}
+
+tr{
+    margin: 20px ;
+}

@@ -1,0 +1,65 @@
+
+.LoginpageContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    font-family: Inter;
+}
+.InputBox{
+    height: 100%;
+    width: 50vw;
+    /* border: 2px solid green; */
+    margin: 100px 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.Image{
+    background: url(../../assets/loginScreen/loginScreen.png);
+    height: 100vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.Heading{
+    color: #6B8FEA;
+    font-family: Inter;
+    font-weight: 900;
+}
+.Input::placeholder{
+    color: #fff;
+}
+.Input{
+    border: none;
+    background-color: #6B8FEA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 20px 40px;
+    margin-left: 0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    color: #6B8FEA;
+    font-weight: 600;
+    margin: 0px 50px;
+    margin-left: 2px;
+}
+.submitbtn{
+    background-color: #6B8FEA;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin: 20px 40px;
+    margin-left: 0;
+}
